@@ -1,41 +1,31 @@
 # OS-Specific junk.
 .DS_Store
+Thumbs.db
 
 # IntelliJ
-/MasterPassword/Java/.idea
-/.idea/*
-!/.idea/encodings.xml
-!/.idea/inspectionProfiles
-!/.idea/projectCodeStyle.xml
-!/.idea/validation.xml
+.idea
 *.iml
-/*.ipr
-/*.iws
+*.ipr
+*.iws
 
 # Xcode IDE
 xcuserdata/
-/DerivedData/
+DerivedData/
 
 # Generated
-MasterPassword/Resources/Media/Images.xcassets/
+/platform-darwin/Resources/Media/Images.xcassets/
 
 # Media
-Press/Background.png
-Press/Front-Page.png
-Press/MasterPassword_PressKit/MasterPassword_pressrelease_*.pdf
+public/Press/Background.png
+public/Press/Front-Page.png
+public/Press/MasterPassword_PressKit/MasterPassword_pressrelease_*.pdf
 
-# IPA
-/sendipa/*
-!/sendipa/sendipa.conf
+# Gradle
+build
+!/build
+.gradle
+local.properties
 
-# Java
-MasterPassword/Java/**/target
-
-# C
-MasterPassword/C/VERSION
-MasterPassword/C/*.o
-MasterPassword/C/mpw-*.tar.gz
-MasterPassword/C/mpw
-MasterPassword/C/mpw-bench
-MasterPassword/C/lib/*/*
-!MasterPassword/C/lib/*/.source
+# Maven
+target
+dependency-reduced-pom.xml

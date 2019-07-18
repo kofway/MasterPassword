@@ -1,24 +1,33 @@
 [submodule "External/Pearl"]
-	path = External/Pearl
+	path = platform-darwin/External/Pearl
 	url = git://github.com/Lyndir/Pearl.git
 [submodule "External/InAppSettingsKit"]
-	path = External/InAppSettingsKit
+	path = platform-darwin/External/InAppSettingsKit
 	url = git://github.com/lhunath/InAppSettingsKit.git
-[submodule "External/RHStatusItemView"]
-	path = External/RHStatusItemView
-	url = git://github.com/lhunath/RHStatusItemView.git
 [submodule "External/KCOrderedAccessorFix"]
-	path = External/KCOrderedAccessorFix
-	url = https://github.com/CFKevinRef/KCOrderedAccessorFix.git
+	path = platform-darwin/External/KCOrderedAccessorFix
+	url = https://github.com/lhunath/KCOrderedAccessorFix.git
 [submodule "External/AttributedMarkdown"]
-	path = External/AttributedMarkdown
+	path = platform-darwin/External/AttributedMarkdown
 	url = https://github.com/dreamwieber/AttributedMarkdown.git
 [submodule "External/uicolor-utilities"]
-	path = External/uicolor-utilities
+	path = platform-darwin/External/uicolor-utilities
 	url = git://github.com/lhunath/uicolor-utilities.git
 [submodule "External/jrswizzle"]
-	path = External/jrswizzle
+	path = platform-darwin/External/jrswizzle
 	url = git://github.com/jonmarimba/jrswizzle.git
-[submodule "Site/2013-05/mpw-js/js/mpw-js"]
-	path = Site/2013-05/mpw-js/js/mpw-js
-	url = https://github.com/Lyndir/mpw-js.git
+[submodule "MasterPassword/Web/js/mpw-js"]
+	path = platform-independent/web-js/js/mpw-js
+	url = https://github.com/tmthrgd/mpw-js.git
+[submodule "lib/libsodium"]
+	path = lib/libsodium
+	url = https://github.com/jedisct1/libsodium.git
+[submodule "lib/libjson-c"]
+	path = lib/libjson-c
+	url = https://github.com/lhunath/json-c.git
+[submodule "public/site"]
+	path = public/site
+	url = https://github.com/Lyndir/MasterPassword.git
+	branch = gh-pages
+	shallow = true
+	update = none
